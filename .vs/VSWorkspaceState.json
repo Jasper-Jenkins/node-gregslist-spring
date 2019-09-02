@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server-assets",
+    "\\server-assets\\auth",
+    "\\server-assets\\db"
+  ],
+  "SelectedNode": "\\server-assets\\auth\\session.js",
+  "PreviewInSolutionExplorer": false
+}
