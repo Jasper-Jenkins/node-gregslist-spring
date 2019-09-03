@@ -3,7 +3,9 @@
     "",
     "\\server-assets",
     "\\server-assets\\auth",
-    "\\server-assets\\db"
+    "\\server-assets\\db",
+    "\\server-assets\\models",
+    "\\server-assets\\routes"
   ],
   "SelectedNode": "\\server-assets\\auth\\session.js",
   "PreviewInSolutionExplorer": false

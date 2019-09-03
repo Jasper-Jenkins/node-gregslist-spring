@@ -2,6 +2,7 @@ var express = require('express') // returns a function
 var bodyParser = require('body-parser')
 var app = express() // 
 var port = 3000 // port number
+var path = require('path')
 
 //accept any request from any origin
 var cors = require('cors')
@@ -36,7 +37,9 @@ app.use(stars.router)
 app.use(planets.router)
 
 app.get('*', function (req, res, next) {
-    res.status(404).send("<h1>404 dangit</h1>")
+    res.status(200).sendFile(path.join(__dirname, '/index.html'));
 })
+
+
 
 app.listen(port, () => { console.log('server running on port: ', port) }) 
